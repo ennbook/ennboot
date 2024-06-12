@@ -5,7 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development"
+    "watch": "ng build --watch --configuration development",
+    "compodoc:build": "compodoc -p tsconfig.doc.json",
+    "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s",
+    "compodoc:serve": "compodoc -s"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +28,7 @@
     "@angular-devkit/build-angular": "^17.3.2",
     "@angular/cli": "^17.3.2",
     "@angular/compiler-cli": "^17.3.0",
+    "@compodoc/compodoc": "^1.1.25",
     "typescript": "~5.4.2"
   }
 }
