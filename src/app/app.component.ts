@@ -4,8 +4,7 @@ import { Component } from '@angular/core';
   selector: 'ennboot-root',
   template: `
     <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
+    <router-outlet></router-outlet>
   `,
   styles: []
 })
